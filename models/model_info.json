@@ -1,0 +1,39 @@
+{
+  "classes": [
+    "lazy",
+    "playful",
+    "shy"
+  ],
+  "feature_names": [
+    "active_ratio",
+    "appear_brightness_mean",
+    "appear_color_diversity",
+    "appear_hue_mean",
+    "appear_hue_std",
+    "appear_saturation_mean",
+    "appear_size_ratio",
+    "appear_texture_variance",
+    "burst_count",
+    "burst_ratio",
+    "early_vs_late",
+    "motion_max",
+    "motion_mean",
+    "motion_rhythm",
+    "motion_std",
+    "motion_trend",
+    "pose_aspect_ratio_mean",
+    "pose_aspect_ratio_std",
+    "pose_center_distance",
+    "pose_compactness_mean",
+    "pose_compactness_std",
+    "rest_streak_max"
+  ],
+  "n_features": 22,
+  "n_estimators": 100,
+  "results": {
+    "train_accuracy": 1.0,
+    "test_accuracy": 0.8095238095238095,
+    "cv_mean": 0.5842857142857143,
+    "cv_std": 0.238198073030545
+  }
+}
